@@ -12,7 +12,7 @@ De oorspronkelijke code voor het csp-framework is afkomstig van David Kopec's Gi
 
 ## Afhankelijkheden
 
-Dit programma verwacht een standaard Python installatie (getest met Python 3.11) en heeft geen verdere externe afhankelijkheden.
+Dit programma verwacht een standaard Python installatie (getest met Python 3.11) en heeft geen verdere externe afhankelijkheden om uitgevoerd te kunnen worden (tijdens de ontwikkelfase zijn formatters/linters gebruikt - vandaar requirements.txt).
 
 ### Formaat invoerbestand
 
