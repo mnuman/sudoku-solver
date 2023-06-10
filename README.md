@@ -10,7 +10,6 @@ De oorspronkelijke code voor het csp-framework is afkomstig van David Kopec's Gi
 
 ![Manning Classic Computer Science Problems in Python](images/classic-computer-science-problems-in-python.jpg)
 
-
 ## Afhankelijkheden
 
 Dit programma verwacht een standaard Python installatie (getest met Python 3.11) en heeft geen verdere externe afhankelijkheden.
@@ -38,13 +37,14 @@ weergegeven als:
 
 ## Gebruik
 
-Het programma wordt gestart vanaf de commando prompt met een verplichte bestandsnaam. Hierbij kan (optioneel) worden aangegeven dat er extra restricties van toepassing zijn middels de --mode parameter. Op dit moment wordt alleen de mode 'nrc' ondersteund.
+Het programma wordt gestart vanaf de commando prompt met een verplichte bestandsnaam. Hierbij kan (optioneel) worden aangegeven dat er extra restricties van toepassing zijn middels de --mode parameter. Op dit moment wordt alleen de mode 'nrc' ondersteund. Misschien is hier wel een betere naam voor, voor dit soort sudoku's ...
 
 ```
 python sudoku_solver.py --filename <naam-invoer-bestand> [--mode nrc]
 ```
 
 ### NRC Sudoku
+
 Voorbeeld:
 ![NRC Sudoku 9 juni 2023](images/nrc-sudoku-20230609.png)
 
